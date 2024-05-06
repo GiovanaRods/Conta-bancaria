@@ -1,6 +1,6 @@
 package conta.model;
 
-public class Conta {
+public abstract class Conta {
 	
 	private int numero;
 	private int agencia;
@@ -16,8 +16,6 @@ public class Conta {
 		this.tipo = tipo;
 		this.titular = titular;
 		this.saldo = saldo;
-		
-		
 	}
 
 
